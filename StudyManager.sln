@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyManager.Server", "StudyManager.Server\StudyManager.Server.csproj", "{19761A0B-CC4F-4EB1-9306-AFEF24B7A192}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "studymanager.client", "studymanager.client\studymanager.client.esproj", "{B37CE3E1-BD24-4D83-8F03-4571CF200795}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19761A0B-CC4F-4EB1-9306-AFEF24B7A192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19761A0B-CC4F-4EB1-9306-AFEF24B7A192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19761A0B-CC4F-4EB1-9306-AFEF24B7A192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19761A0B-CC4F-4EB1-9306-AFEF24B7A192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37CE3E1-BD24-4D83-8F03-4571CF200795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37CE3E1-BD24-4D83-8F03-4571CF200795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37CE3E1-BD24-4D83-8F03-4571CF200795}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B37CE3E1-BD24-4D83-8F03-4571CF200795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37CE3E1-BD24-4D83-8F03-4571CF200795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37CE3E1-BD24-4D83-8F03-4571CF200795}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
