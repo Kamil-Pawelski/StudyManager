@@ -1,4 +1,4 @@
-var builder = WebApplication.CreateBuilder(args);
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
@@ -6,7 +6,7 @@ builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
-var app = builder.Build();
+WebApplication app = builder.Build();
 
 app.UseDefaultFiles();
 app.MapStaticAssets();
@@ -25,4 +25,4 @@ app.MapControllers();
 
 app.MapFallbackToFile("/index.html");
 
-app.Run();
+await app.RunAsync();
